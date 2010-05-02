@@ -10,4 +10,4 @@ include framework/makefiles/library.mk
 
 after-stage::
 	mkdir -p "$(FW_STAGING_DIR)/usr/include/libgdata/"
-	cp -a ACL/*.h BaseClasses/*.h Elements/*.h Geo/*.h Introspection/*.h Media/*.h Networking/*.h OAuth/*.h XMLSupport/*.h Clients/*/*.h "$(FW_STAGING_DIR)/usr/include/libgdata/"
+	cp -a *.h ACL/*.h BaseClasses/*.h Elements/*.h Geo/*.h Introspection/*.h Media/*.h Networking/*.h OAuth/*.h XMLSupport/*.h Clients/*/*.h "$(FW_STAGING_DIR)/usr/include/libgdata/"
