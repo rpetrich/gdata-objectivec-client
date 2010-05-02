@@ -1,0 +1,14 @@
+Package: libgdata
+Depends: firmware (>= 3.0)
+Name: libgdata
+Version: 1.0~r521
+Priority: optional
+Architecture: iphoneos-arm
+Description: A common library for accessing Google Services
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libgdataData
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libgdataData
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: System
+dev: rpetrich
