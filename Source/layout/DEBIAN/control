@@ -1,14 +1,9 @@
-Package: libgdata
-Depends: firmware (>= 3.0)
-Name: libgdata
-Version: 1.0~r521
+Package: gdata-objectivec-client
 Priority: optional
+Section: Development
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
 Architecture: iphoneos-arm
-Description: A common library for accessing Google Services
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libgdataData
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libgdataData
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: Ryan Petrich <rpetrich@gmail.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-Section: System
-dev: rpetrich
+Version: 521
+Depends: libxml2
+Description: GData client library (Objective-C)
+Name: Google Data APIs
